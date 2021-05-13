@@ -1,0 +1,220 @@
+ * {
+    margin: 0;
+    padding: 0.1em;
+    border: 0;
+    list-style: none;
+	}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+   font-style: italic;
+}
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+   font-style: normal;
+   border: solid;
+   border-radius: .3em;
+}
+
+body {
+    color: black;
+    background-color: lightgray;
+    font-family: Futura,Helvetica,sans-serif;
+    background-image: url("images.jpg");
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+header, footer {
+    background-color: #aadd88;
+    font-family: Garamond, serif;
+    text-align: center;
+}
+  
+ header, main, footer {
+    margin: 0 auto;
+    width: 800px;
+	border-radius: .8em;
+ }
+ /*
+header {
+	position: fixe;
+	top: 0;
+}
+footer {
+	bottom: 0;
+	height: 50;
+}*/
+
+  main {
+    background-color: #eeccaa;
+    background-image: url("nuages44.jpg");
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: center; /**/
+	margin-left:auto;
+	margin-right:auto;
+	display:flex;
+	flex-direction: column;
+  }
+  h1,h2,h3,h4  { 
+     color: navy;
+     font-size: 1.1em;
+     font-weight: normal;
+     text-align: center;
+     font-family: Times, serif;
+  }
+  h1 {
+     font: bold 2.2em Georgia,serif;
+     text-shadow: 2px 2px 1px goldenrod;
+     letter-spacing: 1px;
+  }
+  h4 { 
+     display:inline-block;
+  }
+
+  address {
+    font-style: normal;
+	color: white;
+  }
+ .mainsection section{
+     margin: 0.2em 0;
+  }
+ .mainsection h2 {
+     font-size: 1.8em;
+  }
+  
+  #baniere{
+	display:flex;
+    justify-content: space-around;
+	flex-direction:column-reverse;
+  }
+
+  #moi{
+	height: 200px;
+  }
+  #metier{
+      text-align: center;
+  } 
+  
+  #profil {
+  }
+  
+  #profil p {
+    font-size: 1.2em;
+    color: gray;
+    padding: 0.6em;
+    text-align: center;
+	background-color: rgba(255,255,255,0.15);
+	border-radius: .8em;
+  }
+  #formation ul  {
+     list-style: none;
+	 text-align:left;
+  }
+    
+  #contact {
+	 background-image: url("images.jpg");
+     border: thin solid;
+     border-radius: .8em;
+     margin-top: -4em;
+     width: 220px;
+     float: right;
+     margin-right: 1em;
+     margin-left : 1em;
+     background-color: #aabbcc;
+     text-align: center;
+	 box-shadow: 6px 6px 15px white inset;
+  }
+
+  #contact h2 {
+     background-color: navy;
+     color: white;
+     padding: 0.2em;
+     margin : 0.3em 0.2em 0 0.3em;
+     border-radius: .2em;
+  }
+  #contact ul{
+     padding: 0.6em;
+     font-size: smal;
+     list-style: none;
+     text-align: left;
+	background-color: rgba(100, 100, 100, 0.5);
+	text-shadow: 0px 0px 5px white;
+}
+  .dates {
+     color: gray;
+     float: right;
+  }
+
+  .ss-titre{
+     color: Black;
+     float: right;
+  }
+
+  .fonction{
+    color: Black;
+  }
+  .fonction li{
+    color: SlateBlue;
+    padding-left: 1em;
+	text-align: left;
+}
+
+  .interets{
+     color: blue;
+     padding-left: 1em;
+     font-family:  Adobe Poetica, cursive;
+  }
+
+  .competences {
+     width: 65%;
+  }
+
+  .competences li {
+     display: block;
+     background: navy;
+     color: white;
+     margin: 0.2em;
+     text-align: center;
+     padding-left: 0.5em;
+     border-radius: 0.2em;
+	 box-sizing: border-box;
+     text-transform: uppercase;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#252839+0,828699+100 */
+     background: #252839; /* Old browsers */
+     background: -moz-linear-gradient(left,  #252839 0%, #828699 100%); /* FF3.6+ */
+     background: -webkit-gradient(linear, left top, right top, color-stop(0%,#252839), color-stop(100%,#828699));
+/* Chrome,Safari4+ */
+	/* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(left,  #252839 0%,#828699 100%);
+    /* Opera 11.10+ */
+	background: -o-linear-gradient(left,  #252839 0%,#828699 100%); 
+    /* IE10+ */
+	background: -ms-linear-gradient(left,  #252839 0%,#828699 100%); 
+    /* W3C */
+	background: linear-gradient(to right,  #252839 0%,#828699 100%); 
+  }*/
+  .competences li:hover {
+    opacity: .2;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .w80 {
+    width: 80%;
+  }
+  .w60 {
+    width: 60%;
+  }
+  .w40 {
+    width: 40%;
+  }
+
+
