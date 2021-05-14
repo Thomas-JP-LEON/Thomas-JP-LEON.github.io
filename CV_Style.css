@@ -101,6 +101,11 @@ address {
 	margin-left:auto;
 	margin-right:auto;
 }
+#image:hover /* Apparence au survol de l'image */
+{
+	height: 400px;
+	border: solid;
+}
 
 #motivations li {
 	list-style-type : square;
@@ -122,22 +127,22 @@ address {
 	border-radius: .8em;
 }
   
-  .simplon {
+.simplon {
 	box-shadow: 6px 6px 15px black;
     padding: .5em;
 	background-color: rgba(255,255,255,0.15);
 	border-radius: .8em;
     margin: 1em 1em 1em 1em;
-  }
+}
   
-  #profil p {
+#profil p {
     font-size: 1.2em;
     color: gray;
     padding: 0.6em;
     text-align: justify;
 	background-color: rgba(255,255,255,0.15);
 	border-radius: .8em;
-  }
+}
   #formation ul  {
      list-style: none;
 	 text-align:left;
