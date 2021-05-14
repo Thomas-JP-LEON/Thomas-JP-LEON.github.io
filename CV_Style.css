@@ -97,11 +97,7 @@ address {
 #image{
 	height: 200px;
 	display : block;
-   text-decoration: underline;
-   color: green;
-   font-style: normal;
-   border: solid;
-   border-radius: .3em;
+	border-radius: .8em;
 	margin-left:auto;
 	margin-right:auto;
 }
@@ -109,8 +105,19 @@ address {
 {
 	height: 400px;
 	border: solid;
-   	color: black;
-	border-radius: .6em;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 1.6em;
+	text-decoration: none;
+	color: red;
+	font-style: normal;
+}
+
+#refimage:hover {
+	text-decoration: none;
+	color: black;
+	font-style: normal;
+	border: none;
 }
 
 #motivations li {
@@ -143,7 +150,7 @@ address {
   
 #profil p {
     font-size: 1.2em;
-    color: #606060;;
+    color: #606060;
     padding: 0.6em;
     text-align: justify;
 	background-color: rgba(255,255,255,0.15);
